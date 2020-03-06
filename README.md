@@ -1,5 +1,29 @@
-﻿# Marlin 3D Printer Firmware For AnetA8
+﻿# Marlin 3D Printer Firmware for AnetA8
  Ready to Flash AnetA8 Firmware open in PlatformIo and Select Sanguino as Board and Flash
+ 
+ As Display it is select a 128x64 pixel Display with Rorary Encoder for the 5 Button 20 x 4 Row Display please change in the Configuration.h
+ 
+ at line 1900
+     #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+ to
+     //#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+
+at line 1813
+
+   //#define ZONESTAR_LCD
+to
+    #define ZONESTAR_LCD
+    
+    
+The Display Language is set to German to change this go to line 1607 and change 
+
+#define LCD_LANGUAGE de
+
+with one of this 
+ *   en, an, bg, ca, cz, da, de, el, el_gr, es, eu, fi, fr, gl, hr, it, jp_kana,
+ *   ko_KR, nl, pl, pt, pt_br, ru, sk, tr, uk, vi, zh_CN, zh_TW, test
+ 
+ 
 
 
 [![Build Status](https://travis-ci.org/MarlinFirmware/Marlin.svg?branch=2.0.x)](https://travis-ci.org/MarlinFirmware/Marlin)
