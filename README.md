@@ -1,5 +1,6 @@
 ﻿# Marlin 3D Printer Firmware For AnetA8
- Ready to Flash AnetA8 Firmware Open in PlatformIo and Select Sanguino as Board
+ Ready to Flash AnetA8 Firmware open in PlatformIo and Select Sanguino as Board and Flash
+
 
 [![Build Status](https://travis-ci.org/MarlinFirmware/Marlin.svg?branch=2.0.x)](https://travis-ci.org/MarlinFirmware/Marlin)
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
